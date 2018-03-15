@@ -14,6 +14,7 @@
 		09F94897205A30880009EEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F94895205A30880009EEC3 /* LaunchScreen.storyboard */; };
 		09F948A2205A30880009EEC3 /* TextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F948A1205A30880009EEC3 /* TextViewTests.swift */; };
 		09F948AD205A30880009EEC3 /* TextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F948AC205A30880009EEC3 /* TextViewUITests.swift */; };
+		09F948BB205A30E70009EEC3 /* CustomTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F948BA205A30E70009EEC3 /* CustomTextViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		09F948A8205A30880009EEC3 /* TextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F948AC205A30880009EEC3 /* TextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewUITests.swift; sourceTree = "<group>"; };
 		09F948AE205A30880009EEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F948BA205A30E70009EEC3 /* CustomTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				09F94893205A30880009EEC3 /* Assets.xcassets */,
 				09F94895205A30880009EEC3 /* LaunchScreen.storyboard */,
 				09F94898205A30880009EEC3 /* Info.plist */,
+				09F948BA205A30E70009EEC3 /* CustomTextViewCell.swift */,
 			);
 			path = TextView;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				09F9488F205A30880009EEC3 /* ViewController.swift in Sources */,
 				09F9488D205A30880009EEC3 /* AppDelegate.swift in Sources */,
+				09F948BB205A30E70009EEC3 /* CustomTextViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
